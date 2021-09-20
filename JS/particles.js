@@ -1,14 +1,14 @@
     var SCREEN_WIDTH = 600;
 	var SCREEN_HEIGHT = 400;
 	
-	var RADIUS = 110;
+	var RADIUS = 50;
 	
 	var RADIUS_SCALE = 1;
 	var RADIUS_SCALE_MIN = 1;
-	var RADIUS_SCALE_MAX = 1.5;
+	var RADIUS_SCALE_MAX = 4.5;
 	
 	// The number of particles that are used to generate the trail
-	var QUANTITY = 25;
+	var QUANTITY = 300;
 
 	var canvas;
 	var context;
