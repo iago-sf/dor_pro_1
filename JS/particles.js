@@ -37,7 +37,6 @@
 			
 			createParticles();
 			
-			windowResizeHandler();
 			
 			setInterval( loop, 1000 / 60 );
 		}
@@ -100,7 +99,7 @@
 		canvas.width = SCREEN_WIDTH;
 		canvas.height = SCREEN_HEIGHT;
 		
-		canvas.style.position = 'absolute';
+		canvas.style.position = 'inline-block';
 		canvas.style.left = (window.innerWidth - SCREEN_WIDTH) * .5 + 'px';
 		canvas.style.top = (window.innerHeight - SCREEN_HEIGHT) * .5 + 'px';
 	}
