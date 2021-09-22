@@ -41,7 +41,7 @@
     display: inline-flex;
     width: 20%;
 }
-.col-70p{
+.col-60p{
     flex-direction: column;
     display: inline-flex;
     width: 70%;
@@ -157,6 +157,11 @@ section, article, aside{
 footer{
     text-align: center;
     background: rgba(255,179,68,1);
+
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+    border-radius: 2rem 2rem 0 0;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -168,6 +173,9 @@ p{
 }
 section div{
     padding-bottom: 3%;
+}
+aside{
+    margin-left: 2rem;
 }
 
 .gradient{
