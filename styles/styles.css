@@ -127,6 +127,9 @@
     margin-left: 2rem;
     margin-right: 2rem;
 }
+.mt-2{
+    margin-top: 2rem;
+}
 
 
 /** Text standars */
@@ -144,6 +147,9 @@
 }
 .text-white{
     color: #FFF8E5;
+}
+.text-black{
+    color: black;
 }
 
 /** Default tag visualizing */
@@ -210,4 +216,13 @@ aside{
 
 .align-center{
     align-items: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:link{
+    color: black;
+    text-decoration: none;
 }
